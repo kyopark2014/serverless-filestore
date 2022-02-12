@@ -36,6 +36,7 @@ https://ap-northeast-2.console.aws.amazon.com/sns/v3/home?region=ap-northeast-2#
 <img width="948" alt="image" src="https://user-images.githubusercontent.com/52392004/153710329-39487004-73ab-4dca-8c26-2c2ff8610956.png">
 
 3. 별도의 내용 변경 없이 [Create topic] 버튼을 클릭하여 SNS Topic 생성을 완료합니다.
+
 4. 생성된 Topic 하단의 [Subcriptions] 탭에서 [Create subscription] 을 선택합니다.
 <img width="1035" alt="image" src="https://user-images.githubusercontent.com/52392004/153710547-d266a3f6-2a6f-4f70-8e7b-27ed882fb3b6.png">
 
@@ -80,7 +81,6 @@ Private API : accessible only from VPC
 ![image](https://user-images.githubusercontent.com/52392004/153698480-cf7ef6ec-3365-4eab-87e9-21cf0c35b509.png)
 
 5. / - POST - Setup 화면이 나타납니다. [Ingegration type] 은 Lambda Function 을 선택하고 [Lambda Region] 은 ap-northeast-2 를 선택합니다. [Lambda Function] 에는 api-filesharing 을 입력합니다. [Save] 를 선택하여 API 메소드 생성을 완료합니다.
-![image](https://user-images.githubusercontent.com/52392004/153698543-d58f3d6c-2a6a-4308-8159-c4c5725c65e8.png)
 
 <img width="897" alt="image" src="https://user-images.githubusercontent.com/52392004/153712018-fb1c7ddf-4875-4f90-8b3c-ca2dfd47f4e9.png">
 
@@ -98,6 +98,7 @@ Private API : accessible only from VPC
 
 
 9. 아래와 같이 [Stages] - [dev]를 선택한후, invoke URL을 확인합니다.
+
  예) https://xeps4yi0g0.execute-api.ap-northeast-2.amazonaws.com/dev
 
 <img width="1416" alt="image" src="https://user-images.githubusercontent.com/52392004/153713344-6520662f-073f-4c01-8e44-db4f3db80e11.png">
