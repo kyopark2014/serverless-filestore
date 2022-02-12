@@ -5,7 +5,7 @@ It shows a filesharing way using aws serverless services such as api-gateway, s3
 API Gateway + Lambda 구조
 
 
-## S3
+## S3에 Bucket 생성
 파일공유시에 사용할 S3 Bucket 을 생성합니다.
 
 1. AWS 콘솔  에서 Amazon S3 서비스로 이동합니다.
@@ -24,7 +24,7 @@ https://s3.console.aws.amazon.com/s3/home?region=ap-northeast-2
 https://catalog.us-east-1.prod.workshops.aws/v2/workshops/05e3e1f9-5d5a-4cc5-9899-df114def68e7/ko-KR/lab1/step2
 
 
-## API Gateway
+## API Gateway 생성
 
 Amazon API Gateway는 REST 및 WebSocketAPI 등을 생성, 배포, 유지 관리 할 수 있는 AWS 서비스로 모든 규모의 API 를 개발자가 손쉽게 구성할 수 있도록 해줍니다.
 
