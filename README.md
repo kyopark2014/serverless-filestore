@@ -132,7 +132,7 @@ https://xeps4yi0g0.execute-api.ap-northeast-2.amazonaws.com/dev
 
 12. 아래와 같이 curl 명령으로 api-gateway와 lambda가 잘 연결되었음을 확인 할 수 있습니다. 
 
-'''c
+```c
 $ curl -i https://xeps4yi0g0.execute-api.ap-northeast-2.amazonaws.com/dev/upload -X POST
 HTTP/2 200
 date: Sat, 12 Feb 2022 14:03:37 GMT
@@ -143,7 +143,7 @@ x-amz-apigw-id: Nbqo8HH_IE0FtIw=
 x-amzn-trace-id: Root=1-6207be39-02e1750519543a464645f254;Sampled=0
 
 {"statusCode":200,"body":"\"Hello from Lambda!\""}
-'''
+```
 
 #### Reference
 https://catalog.us-east-1.prod.workshops.aws/v2/workshops/05e3e1f9-5d5a-4cc5-9899-df114def68e7/ko-KR/lab2/step4
