@@ -83,7 +83,12 @@ Private API : accessible only from VPC
 ![image](https://user-images.githubusercontent.com/52392004/153698543-d58f3d6c-2a6a-4308-8159-c4c5725c65e8.png)
 
 <img width="897" alt="image" src="https://user-images.githubusercontent.com/52392004/153712018-fb1c7ddf-4875-4f90-8b3c-ca2dfd47f4e9.png">
+
+
 6. Add Permission to Lambda Function 팝업이 나타나면 [OK] 를 선택합니다.
+<img width="867" alt="image" src="https://user-images.githubusercontent.com/52392004/153712099-b247d449-9f1b-46c6-b2f8-367818a66a33.png">
+
+
 7. 생성한 API 를 배포해줘야 합니다. [Resources] 메뉴 상단의 [Actions] 버튼을 드롭다운 한 뒤 [Deploy API] 를 클릭합니다.
 <img width="820" alt="image" src="https://user-images.githubusercontent.com/52392004/153713207-2514bea2-af02-4bfa-af9b-dea1523f3f9f.png">
 
@@ -91,8 +96,11 @@ Private API : accessible only from VPC
 8. [Deploy stage] 는 [New Stage] 를 선택하고 [Stage name*] 에는 dev 를 입력한 뒤 [Deploy] 버튼을 클릭합니다.
 <img width="592" alt="image" src="https://user-images.githubusercontent.com/52392004/153713143-f2b2e6d4-fbbe-4c37-ba0a-ff03e42481c7.png">
 
-<img width="867" alt="image" src="https://user-images.githubusercontent.com/52392004/153712099-b247d449-9f1b-46c6-b2f8-367818a66a33.png">
 
+9. 아래와 같이 [Stages] - [dev]를 선택한후, invoke URL을 확인합니다.
+ 예) https://xeps4yi0g0.execute-api.ap-northeast-2.amazonaws.com/dev
+
+<img width="1416" alt="image" src="https://user-images.githubusercontent.com/52392004/153713344-6520662f-073f-4c01-8e44-db4f3db80e11.png">
 
 #### Reference
 https://catalog.us-east-1.prod.workshops.aws/v2/workshops/05e3e1f9-5d5a-4cc5-9899-df114def68e7/ko-KR/lab2/step4
