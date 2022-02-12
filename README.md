@@ -20,7 +20,7 @@ https://s3.console.aws.amazon.com/s3/home?region=ap-northeast-2
 4. Bucket이 잘 생성되었는지,  not public 인지 확인한다.
 <img width="1047" alt="image" src="https://user-images.githubusercontent.com/52392004/153710032-e0f5dd31-6107-4a5d-8f42-07f66d813ffa.png">
 
-### Reference
+#### Reference
 https://catalog.us-east-1.prod.workshops.aws/v2/workshops/05e3e1f9-5d5a-4cc5-9899-df114def68e7/ko-KR/lab1/step2
 
 
@@ -42,7 +42,7 @@ https://ap-northeast-2.console.aws.amazon.com/sns/v3/home?region=ap-northeast-2#
 5. [Protocol] 에 Email 을 선택하면 Endpoint 메뉴가 나타납니다. [Endpoint] 에는 email 알람을 받을 email 주소 를 입력합니다. [Create subscription] 버튼을 클릭하여 구독을 완료합니다.
 <img width="858" alt="image" src="https://user-images.githubusercontent.com/52392004/153711525-6fa22ada-9fdc-44da-8228-ed68c50666d0.png">
 
-### Reference
+#### Reference
 https://catalog.us-east-1.prod.workshops.aws/v2/workshops/05e3e1f9-5d5a-4cc5-9899-df114def68e7/ko-KR/lab1/step1
 
 
@@ -65,7 +65,7 @@ Amazon API Gateway는 REST 및 WebSocketAPI 등을 생성, 배포, 유지 관리
 
 3. API 생성 화면에서 Create new API 에는 [New API] 를 선택하고 하단 Settings 의 [API name] 에는 serverless-app-api 를 입력합니다. [Endpoint Type] 은 Regional 을 선택합니다. API 트래픽의 오리진에 따라 Edge, Regional, Private 등의 옵션  을 제공하고 있습니다. [Create API] 를 클릭하여 API 를 생성합니다.
 
-![image](https://user-images.githubusercontent.com/52392004/153605827-ba5cb4f6-4146-415d-94e3-897409e24b8e.png)
+<img width="845" alt="image" src="https://user-images.githubusercontent.com/52392004/153711793-8ef37c45-3ebb-4b0a-8113-4158083edd0d.png">
 
 
 Reginal API : current region
@@ -91,10 +91,7 @@ Private API : accessible only from VPC
 
 
 
-
-
-
-Reference
+#### Reference
 https://catalog.us-east-1.prod.workshops.aws/v2/workshops/05e3e1f9-5d5a-4cc5-9899-df114def68e7/ko-KR/lab2/step4
 
 
