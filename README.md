@@ -10,7 +10,7 @@ API Gateway + Lambda 구조
 파일공유시에 사용할 S3 Bucket 을 생성합니다.
 
 1. AWS 콘솔  에서 Amazon S3 서비스로 이동합니다.
-2. 
+
 https://s3.console.aws.amazon.com/s3/home?region=ap-northeast-2
 
 2. 화면 상단의 [Create bucket] 을 선택하여 Bucket 생성을 시작합니다.
