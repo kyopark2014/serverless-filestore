@@ -82,11 +82,12 @@ Private API : accessible only from VPC
 5. / - POST - Setup 화면이 나타납니다. [Ingegration type] 은 Lambda Function 을 선택하고 [Lambda Region] 은 ap-northeast-2 를 선택합니다. [Lambda Function] 에는 api-filesharing 을 입력합니다. [Save] 를 선택하여 API 메소드 생성을 완료합니다.
 ![image](https://user-images.githubusercontent.com/52392004/153698543-d58f3d6c-2a6a-4308-8159-c4c5725c65e8.png)
 
+<img width="897" alt="image" src="https://user-images.githubusercontent.com/52392004/153712018-fb1c7ddf-4875-4f90-8b3c-ca2dfd47f4e9.png">
 6. Add Permission to Lambda Function 팝업이 나타나면 [OK] 를 선택합니다.
 7. 생성한 API 를 배포해줘야 합니다. [Resources] 메뉴 상단의 [Actions] 버튼을 드롭다운 한 뒤 [Deploy API] 를 클릭합니다.
 8. [Deploy stage] 는 [New Stage] 를 선택하고 [Stage name*] 에는 dev 를 입력한 뒤 [Deploy] 버튼을 클릭합니다.
 
-
+<img width="867" alt="image" src="https://user-images.githubusercontent.com/52392004/153712099-b247d449-9f1b-46c6-b2f8-367818a66a33.png">
 
 
 #### Reference
