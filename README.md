@@ -73,20 +73,18 @@ Edge Optimized APIs : CloudFront Network
 Private API : accessible only from VPC
 
 
-4. API 생성이 완료되면 [Resources] 메뉴 상단의 [Actions] 버튼을 드롭 다운 한 뒤 [Create Method] 옵션을 선택합니다. 생성된 빈 드롭 다운 메뉴에서는 [PUT] 을 선택한 뒤 체크 버튼을 클릭합니다.
+4. API 생성이 완료되면 [Resources] 메뉴 상단의 [Actions] 버튼을 드롭 다운 한 뒤 [Create Method] 옵션을 선택합니다. 생성된 빈 드롭 다운 메뉴에서는 [POST] 을 선택한 뒤 체크 버튼을 클릭합니다.
 
 ![image](https://user-images.githubusercontent.com/52392004/153606743-a4aadb3a-2869-4080-8afb-e3e2a7fce732.png)
 
 ![image](https://user-images.githubusercontent.com/52392004/153698480-cf7ef6ec-3365-4eab-87e9-21cf0c35b509.png)
 
-5. / - PUT - Setup 화면이 나타납니다. [Ingegration type] 은 Lambda Function 을 선택하고 [Lambda Region] 은 ap-northeast-2 를 선택합니다. [Lambda Function] 에는 serverless-app-lambda 를 선택합니다. [Save] 를 선택하여 API 메소드 생성을 완료합니다.
+5. / - POST - Setup 화면이 나타납니다. [Ingegration type] 은 Lambda Function 을 선택하고 [Lambda Region] 은 ap-northeast-2 를 선택합니다. [Lambda Function] 에는 api-filesharing 을 입력합니다. [Save] 를 선택하여 API 메소드 생성을 완료합니다.
 ![image](https://user-images.githubusercontent.com/52392004/153698543-d58f3d6c-2a6a-4308-8159-c4c5725c65e8.png)
 
 6. Add Permission to Lambda Function 팝업이 나타나면 [OK] 를 선택합니다.
 7. 생성한 API 를 배포해줘야 합니다. [Resources] 메뉴 상단의 [Actions] 버튼을 드롭다운 한 뒤 [Deploy API] 를 클릭합니다.
 8. [Deploy stage] 는 [New Stage] 를 선택하고 [Stage name*] 에는 dev 를 입력한 뒤 [Deploy] 버튼을 클릭합니다.
-
-
 
 
 
