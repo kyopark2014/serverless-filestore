@@ -6,12 +6,15 @@ API Gateway + Lambda 구조
 
 
 ## S3에 Bucket 생성
+
 파일공유시에 사용할 S3 Bucket 을 생성합니다.
 
 1. AWS 콘솔  에서 Amazon S3 서비스로 이동합니다.
+2. 
 https://s3.console.aws.amazon.com/s3/home?region=ap-northeast-2
 
 2. 화면 상단의 [Create bucket] 을 선택하여 Bucket 생성을 시작합니다.
+
 <img width="1016" alt="image" src="https://user-images.githubusercontent.com/52392004/153709577-380c28b7-b246-4187-8fc0-8cb85d552c11.png">
 
 3. [Bucket name] 에 사용자 고유의 이름 을 입력한 뒤 별도의 옵션 변경 없이 하단의 [Create bucket] 버튼을 클릭하여 생성을 완료합니다.
@@ -21,6 +24,7 @@ https://s3.console.aws.amazon.com/s3/home?region=ap-northeast-2
 <img width="1047" alt="image" src="https://user-images.githubusercontent.com/52392004/153710032-e0f5dd31-6107-4a5d-8f42-07f66d813ffa.png">
 
 #### Reference
+
 https://catalog.us-east-1.prod.workshops.aws/v2/workshops/05e3e1f9-5d5a-4cc5-9899-df114def68e7/ko-KR/lab1/step2
 
 
@@ -30,6 +34,7 @@ https://catalog.us-east-1.prod.workshops.aws/v2/workshops/05e3e1f9-5d5a-4cc5-989
 AWS Lambda 가 이벤트를 처리한 결과를 email 로 전송할 때 사용할 Amazon SNS 를 구성하고자 합니다.
 
 1. AWS 콘솔  에서 Amazon SNS 서비스로 이동합니다. 리전은 서울(ap-northeast-2)을 사용합니다.
+
 https://ap-northeast-2.console.aws.amazon.com/sns/v3/home?region=ap-northeast-2#/homepage
 
 2. 메인 화면의 [Create topic] 하단의 [Topic name] 에 sns-filesharing 를 입력하고 [Next step] 을 클릭합니다.
