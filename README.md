@@ -24,6 +24,21 @@ https://s3.console.aws.amazon.com/s3/home?region=ap-northeast-2
 https://catalog.us-east-1.prod.workshops.aws/v2/workshops/05e3e1f9-5d5a-4cc5-9899-df114def68e7/ko-KR/lab1/step2
 
 
+
+## SNS 설정
+
+AWS Lambda 가 이벤트를 처리한 결과를 email 로 전송할 때 사용할 Amazon SNS 를 구성하고자 합니다.
+
+1. AWS 콘솔  에서 Amazon SNS 서비스로 이동합니다. 리전은 서울(ap-northeast-2)을 사용합니다.
+https://ap-northeast-2.console.aws.amazon.com/sns/v3/home?region=ap-northeast-2#/homepage
+
+2. 메인 화면의 [Create topic] 하단의 [Topic name] 에 sns-filesharing 를 입력하고 [Next step] 을 클릭합니다.
+<img width="948" alt="image" src="https://user-images.githubusercontent.com/52392004/153710329-39487004-73ab-4dca-8c26-2c2ff8610956.png">
+
+3. 별도의 내용 변경 없이 [Create topic] 버튼을 클릭하여 SNS Topic 생성을 완료합니다.
+4. 생성된 Topic 하단의 [Subcriptions] 탭에서 [Create subscription] 을 선택합니다.
+<img width="1035" alt="image" src="https://user-images.githubusercontent.com/52392004/153710547-d266a3f6-2a6f-4f70-8e7b-27ed882fb3b6.png">
+<img width="858" alt="image" src="https://user-images.githubusercontent.com/52392004/153711525-6fa22ada-9fdc-44da-8228-ed68c50666d0.png">
 ## API Gateway 생성
 
 Amazon API Gateway는 REST 및 WebSocketAPI 등을 생성, 배포, 유지 관리 할 수 있는 AWS 서비스로 모든 규모의 API 를 개발자가 손쉽게 구성할 수 있도록 해줍니다.
