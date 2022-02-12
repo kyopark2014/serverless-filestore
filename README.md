@@ -103,13 +103,13 @@ Private API : accessible only from VPC
 
 8. Add Permission to Lambda Function 팝업이 나타나면 [OK] 를 선택합니다.
 
-<img width="893" alt="image" src="https://user-images.githubusercontent.com/52392004/153714257-898a6282-dcfc-4c14-8d5b-b026d4907788.png">
+<img width="850" alt="image" src="https://user-images.githubusercontent.com/52392004/153715046-a386c2e5-a0c1-47a1-a694-80037e5ddd9a.png">
 
 이후 아래와 같이 생성된 API 를 확인 할 수 있습니다.
 
 
-<img width="1172" alt="image" src="https://user-images.githubusercontent.com/52392004/153714310-ec52d48c-7b1e-4294-bc69-9db9c0db6596.png">
 
+<img width="872" alt="image" src="https://user-images.githubusercontent.com/52392004/153715013-6f3b326c-b54d-43cf-b8e5-96f5ee90520f.png">
 
 
 9. 생성한 API 를 배포해줘야 합니다. [Resources] 메뉴 상단의 [Actions] 버튼을 드롭다운 한 뒤 [Deploy API] 를 클릭합니다.
