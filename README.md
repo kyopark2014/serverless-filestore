@@ -38,7 +38,15 @@ https://ap-northeast-2.console.aws.amazon.com/sns/v3/home?region=ap-northeast-2#
 3. 별도의 내용 변경 없이 [Create topic] 버튼을 클릭하여 SNS Topic 생성을 완료합니다.
 4. 생성된 Topic 하단의 [Subcriptions] 탭에서 [Create subscription] 을 선택합니다.
 <img width="1035" alt="image" src="https://user-images.githubusercontent.com/52392004/153710547-d266a3f6-2a6f-4f70-8e7b-27ed882fb3b6.png">
+
+5. [Protocol] 에 Email 을 선택하면 Endpoint 메뉴가 나타납니다. [Endpoint] 에는 email 알람을 받을 email 주소 를 입력합니다. [Create subscription] 버튼을 클릭하여 구독을 완료합니다.
 <img width="858" alt="image" src="https://user-images.githubusercontent.com/52392004/153711525-6fa22ada-9fdc-44da-8228-ed68c50666d0.png">
+
+### Reference
+https://catalog.us-east-1.prod.workshops.aws/v2/workshops/05e3e1f9-5d5a-4cc5-9899-df114def68e7/ko-KR/lab1/step1
+
+
+
 ## API Gateway 생성
 
 Amazon API Gateway는 REST 및 WebSocketAPI 등을 생성, 배포, 유지 관리 할 수 있는 AWS 서비스로 모든 규모의 API 를 개발자가 손쉽게 구성할 수 있도록 해줍니다.
