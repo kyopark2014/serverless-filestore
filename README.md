@@ -58,8 +58,7 @@ https://catalog.us-east-1.prod.workshops.aws/v2/workshops/05e3e1f9-5d5a-4cc5-989
 
 Amazon API Gateway는 REST 및 WebSocketAPI 등을 생성, 배포, 유지 관리 할 수 있는 AWS 서비스로 모든 규모의 API 를 개발자가 손쉽게 구성할 수 있도록 해줍니다.
 
-이번 실습에서는 Lambda 를 API Gateway 와 함께 사용하여 REST API 호출하는 것을 구성합니다. 실습 외에도 이 두 서비스를 연동하는 다양한 자습서가 제공되고 있습니다.
-
+여기에서는Lambda를 API Gateway와 함께 사용하여 REST API를 호출하고자 합니다. 
 
 1. AWS 콘솔  에서 Amazon API Gateway 서비스로 이동합니다.
    https://ap-northeast-2.console.aws.amazon.com/apigateway/main/apis?region=ap-northeast-2#
