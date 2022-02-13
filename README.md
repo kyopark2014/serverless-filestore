@@ -126,13 +126,7 @@ Private API : accessible only from VPC
 <img width="872" alt="image" src="https://user-images.githubusercontent.com/52392004/153715013-6f3b326c-b54d-43cf-b8e5-96f5ee90520f.png">
 
 
-9. 생성한 API 를 배포해줘야 합니다. [Resources] 메뉴 상단의 [Actions] 버튼을 드롭다운 한 뒤 [Deploy API] 를 클릭합니다.
-
-
-<img width="595" alt="image" src="https://user-images.githubusercontent.com/52392004/153714369-89c54cab-229f-47ec-bfe2-188bc83f586f.png">
-
-
-10. Binary contents 처리를 위해 [API-filesharing] - [Resources] - [upload/POST] - [Integration Request]를 선택하여 아래로 스크롤하여 [Mapping Templates]을 설정합니다.
+9. Binary contents 처리를 위해 [API-filesharing] - [Resources] - [upload/POST] - [Integration Request]를 선택하여 아래로 스크롤하여 [Mapping Templates]을 설정합니다.
   
   1) “Request body passthrough”에서 “When there are no templates defined (recommended)”를 선택
   
@@ -142,6 +136,13 @@ Private API : accessible only from VPC
 
 
 ![image](https://user-images.githubusercontent.com/52392004/153761172-a1889b0a-c7fe-489d-a58e-3d8319871e19.png)
+
+
+
+10. 생성한 API 를 배포해줘야 합니다. [Resources] 메뉴 상단의 [Actions] 버튼을 드롭다운 한 뒤 [Deploy API] 를 클릭합니다.
+
+
+<img width="595" alt="image" src="https://user-images.githubusercontent.com/52392004/153714369-89c54cab-229f-47ec-bfe2-188bc83f586f.png">
 
 
 
