@@ -2,7 +2,7 @@
 
 Lambda에서 SNS를 호출하여 사용하기 위하여 아래와 같이 SNS Role을 추가하여야 합니다. 
 
-1. Lambda console에서 [Functions]에서 수정하려는 lambda를 선택한다. 
+1. Lambda console로 진입한후, [Functions]에서 수정하려는 lambda를 선택한다. 
 
 ![image](https://user-images.githubusercontent.com/52392004/153986363-bd210c81-239e-401a-9567-0f5bd6e48a91.png)
 
