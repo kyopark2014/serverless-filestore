@@ -47,6 +47,7 @@ Lambda에서 SNS를 호출하여 사용하기 위하여 아래와 같이 SNS Rol
 }
 ```
 추가후 아래와 같은 형태로 구성되어야 한다. 
+
 <img width="690" alt="image" src="https://user-images.githubusercontent.com/52392004/153988478-95feb9e8-39fa-4d89-a27d-9ab71e6c1290.png">
 
 ### Reference 
