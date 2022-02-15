@@ -50,6 +50,10 @@ Lambda에서 SNS를 호출하여 사용하기 위하여 아래와 같이 SNS Rol
 
 <img width="685" alt="image" src="https://user-images.githubusercontent.com/52392004/153988694-b35bc614-da81-4895-9f7b-501f2b8a9a94.png">
 
+6. Lambda console에서 [Functions] - [Configuration] - [Permissions]에 가면 아래와 같이 SNS Execution Role이 추가된것을 확인 할 수 있다.
+
+![image](https://user-images.githubusercontent.com/52392004/153988880-1a1e3311-332f-45e3-806d-9047804f0fcd.png)
+
 ### Reference 
 
 https://bobbyhadz.com/blog/aws-grant-lambda-access-to-sns
