@@ -11,6 +11,7 @@ Lambda에서 SNS를 호출하여 사용하기 위하여 아래와 같이 SNS Rol
 
 ![image](https://user-images.githubusercontent.com/52392004/153986449-56715b83-c70c-43ee-803a-bc488f811d91.png)
 
+<img width="1157" alt="image" src="https://user-images.githubusercontent.com/52392004/153988029-68761c37-fcaf-4dd4-950a-437cfeff9615.png">
 
 3. IAM의 Roles로 이동되는데 여기서 해당되는 Policy name을 선택한다.
  아래에서는 “AWSLambdaBasicExecutionRole-8d7f526f-4d98-409b-bb9e-5a4f52eaf192” 을 선택한다.
