@@ -22,6 +22,7 @@ Lambda에서 SNS를 호출하여 사용하기 위하여 아래와 같이 SNS Rol
 
 5. 아래에서 적절한 Action을 추가 한다.
 
+```c
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -44,6 +45,7 @@ Lambda에서 SNS를 호출하여 사용하기 위하여 아래와 같이 SNS Rol
         }
     ]
 }
+```
 
 
 
