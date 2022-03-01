@@ -81,7 +81,7 @@ Edge Optimized APIs : CloudFront Network
 Private API : accessible only from VPC
 
 
-4. 미디어 파일을 지원하기 위해 [API: api-filesharing] - [Settings] 에서 스크롤하여 [Binary Media Types]를 아래와 같이 설정합니다.
+4. 미디어 파일을 지원하기 위해 [API: api-filestore] - [Settings] 에서 스크롤하여 [Binary Media Types]를 아래와 같이 설정합니다.
 
 <img width="1080" alt="image" src="https://user-images.githubusercontent.com/52392004/153761105-9cc88842-646e-4ac6-b613-5bdcd054e6d8.png">
 
